@@ -1,0 +1,9 @@
+1.Dockerfile = Dockerfile is build to create my Python image based on my instruction I create on it file
+2.docker-compose.yaml = docker-compose.yaml is create to define my container and run python and postgresql container at once
+3.requirement.txt = requirement.txt is a file that used as a source for Dockerfile to install python packages
+4.data_ingestion_script.py = is a file source for Dockerfile to run a code in this file
+
+step 1: create requirement.txt with for Dockerfile
+step 2: create data_ingestion_script.py to fetch data 
+step 3: create Dockerfile to create image
+step 4: create docker-compose.yaml to create container
